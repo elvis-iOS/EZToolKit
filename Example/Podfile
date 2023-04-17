@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'EZToolKit_Example' do
+  pod 'EZToolKit', :path => '../'
+
+  target 'EZToolKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
