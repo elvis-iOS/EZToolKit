@@ -1,0 +1,6 @@
+framework module Pods_EZToolKit_Example {
+  umbrella header "Pods-EZToolKit_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

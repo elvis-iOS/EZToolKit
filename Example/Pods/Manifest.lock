@@ -1,0 +1,16 @@
+PODS:
+  - EZToolKit (0.1.0)
+
+DEPENDENCIES:
+  - EZToolKit (from `../`)
+
+EXTERNAL SOURCES:
+  EZToolKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  EZToolKit: 264827aa7e9e2ecb31f0fffee233859ab79e9560
+
+PODFILE CHECKSUM: c1984a7b36696179118b43b1f42f0fda49ae6b26
+
+COCOAPODS: 1.11.3

@@ -62,11 +62,11 @@
 		6203BEF5E76EDF4F5CAE1B73 /* Pods-EZToolKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EZToolKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-EZToolKit_Example/Pods-EZToolKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		66FAA2061A95A2E9CF9AAB46 /* Pods-EZToolKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EZToolKit_Example.release.xcconfig"; path = "Target Support Files/Pods-EZToolKit_Example/Pods-EZToolKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		78C40F2F6DB4D44601BF5E35 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		78C40F2F6DB4D44601BF5E35 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BBA5EEB770AED4E0DEE9E8AC /* Pods_EZToolKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EZToolKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CA3ACAC9B8E6A4A7DA1C8E39 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		F616681E3062EEFFC9F2905B /* EZToolKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = EZToolKit.podspec; path = ../EZToolKit.podspec; sourceTree = "<group>"; };
+		CA3ACAC9B8E6A4A7DA1C8E39 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F616681E3062EEFFC9F2905B /* EZToolKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = EZToolKit.podspec; path = ../EZToolKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,6 @@
 				3C02955454EE485DBCF8E5FD /* Pods-EZToolKit_Tests.debug.xcconfig */,
 				0175475683BA2231AA465B97 /* Pods-EZToolKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

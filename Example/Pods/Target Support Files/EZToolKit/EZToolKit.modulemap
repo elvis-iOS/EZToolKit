@@ -1,0 +1,6 @@
+framework module EZToolKit {
+  umbrella header "EZToolKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
