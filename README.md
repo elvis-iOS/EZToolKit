@@ -22,7 +22,7 @@ pod 'EZToolKit'
 
 ## Author
 
-zhujun, elvis.zhu@adtiming.com
+zhujun, elviszhu.0122@gmail.com
 
 ## License
 

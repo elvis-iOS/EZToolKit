@@ -12,10 +12,164 @@
 		5EF1C506CF4EE32FECA1FA6194DE2C34 /* Pods-EZToolKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 11CD4817EA5182E86805C5A9848B52E0 /* Pods-EZToolKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		605EB574CABA8AA3F39F28979AE1A67B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		6C1E2C036164BA5A07FA3D68F553310F /* Pods-EZToolKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3003C0CBAC9A03ED253418290F2D895F /* Pods-EZToolKit_Tests-dummy.m */; };
+		7611E0572A0A471A00CADCFF /* TFHppleElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 7611E0512A0A471A00CADCFF /* TFHppleElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7611E0582A0A471A00CADCFF /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = 7611E0522A0A471A00CADCFF /* TFHpple.m */; };
+		7611E0592A0A471A00CADCFF /* XPathQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 7611E0532A0A471A00CADCFF /* XPathQuery.h */; };
+		7611E05A2A0A471A00CADCFF /* TFHpple.h in Headers */ = {isa = PBXBuildFile; fileRef = 7611E0542A0A471A00CADCFF /* TFHpple.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7611E05B2A0A471A00CADCFF /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 7611E0552A0A471A00CADCFF /* TFHppleElement.m */; };
+		7611E05C2A0A471A00CADCFF /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 7611E0562A0A471A00CADCFF /* XPathQuery.m */; };
+		7611E05F2A0A47A700CADCFF /* EZApp.h in Headers */ = {isa = PBXBuildFile; fileRef = 7611E05E2A0A47A700CADCFF /* EZApp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7611E0622A0A4ADD00CADCFF /* EZAppLauncher.h in Headers */ = {isa = PBXBuildFile; fileRef = 7611E0602A0A4ADD00CADCFF /* EZAppLauncher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7611E0632A0A4ADD00CADCFF /* EZAppLauncher.m in Sources */ = {isa = PBXBuildFile; fileRef = 7611E0612A0A4ADD00CADCFF /* EZAppLauncher.m */; };
+		7611E0662A0A4EF600CADCFF /* NSObject+FMDB.h in Headers */ = {isa = PBXBuildFile; fileRef = 7611E0642A0A4EF500CADCFF /* NSObject+FMDB.h */; };
+		7611E0672A0A4EF600CADCFF /* NSObject+FMDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 7611E0652A0A4EF600CADCFF /* NSObject+FMDB.m */; };
+		7611E06A2A0A500B00CADCFF /* EZAppEnvManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7611E0682A0A500B00CADCFF /* EZAppEnvManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7611E06B2A0A500B00CADCFF /* EZAppEnvManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7611E0692A0A500B00CADCFF /* EZAppEnvManager.m */; };
+		7633366429ED50EF00B54080 /* EZDeallocObjectObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = 7633366229ED50EF00B54080 /* EZDeallocObjectObserver.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7633366529ED50EF00B54080 /* EZDeallocObjectObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 7633366329ED50EF00B54080 /* EZDeallocObjectObserver.m */; };
+		7633366829ED542D00B54080 /* EZTopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7633366629ED542D00B54080 /* EZTopViewController.m */; };
+		7633366929ED542D00B54080 /* EZTopViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7633366729ED542D00B54080 /* EZTopViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7633366C29ED5FCE00B54080 /* EZInvoke.h in Headers */ = {isa = PBXBuildFile; fileRef = 7633366A29ED5FCE00B54080 /* EZInvoke.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7633366D29ED5FCE00B54080 /* EZInvoke.m in Sources */ = {isa = PBXBuildFile; fileRef = 7633366B29ED5FCE00B54080 /* EZInvoke.m */; };
+		76799CF62A035A6C0022E031 /* EZFileLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 76799CF42A035A6C0022E031 /* EZFileLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76799CF72A035A6C0022E031 /* EZFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 76799CF52A035A6C0022E031 /* EZFileLogger.m */; };
+		76799CFE2A04A45E0022E031 /* EZAppInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 76799CFC2A04A45E0022E031 /* EZAppInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76799CFF2A04A45E0022E031 /* EZAppInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 76799CFD2A04A45E0022E031 /* EZAppInfo.m */; };
+		76799D022A04A5110022E031 /* EZAppManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 76799D002A04A5110022E031 /* EZAppManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76799D032A04A5110022E031 /* EZAppManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 76799D012A04A5110022E031 /* EZAppManager.m */; };
+		768DB4F129F7B36C00CEF1F4 /* EZObjectInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 768DB4EF29F7B36C00CEF1F4 /* EZObjectInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		768DB4F229F7B36C00CEF1F4 /* EZObjectInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 768DB4F029F7B36C00CEF1F4 /* EZObjectInfo.m */; };
+		768DB4F529F7B84C00CEF1F4 /* NSObject+Nonnull.h in Headers */ = {isa = PBXBuildFile; fileRef = 768DB4F329F7B84C00CEF1F4 /* NSObject+Nonnull.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		768DB4F629F7B84C00CEF1F4 /* NSObject+Nonnull.m in Sources */ = {isa = PBXBuildFile; fileRef = 768DB4F429F7B84C00CEF1F4 /* NSObject+Nonnull.m */; };
+		768DB4FD29F7BA4600CEF1F4 /* EZCommandRunner.h in Headers */ = {isa = PBXBuildFile; fileRef = 768DB4FB29F7BA4600CEF1F4 /* EZCommandRunner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		768DB4FE29F7BA4600CEF1F4 /* EZCommandRunner.m in Sources */ = {isa = PBXBuildFile; fileRef = 768DB4FC29F7BA4600CEF1F4 /* EZCommandRunner.m */; };
+		768DB50229F7BBAD00CEF1F4 /* libproc.h in Headers */ = {isa = PBXBuildFile; fileRef = 768DB50029F7BBAD00CEF1F4 /* libproc.h */; };
+		768DB50329F7BBAD00CEF1F4 /* NSTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 768DB50129F7BBAD00CEF1F4 /* NSTask.h */; };
+		768DB50729F7BC1800CEF1F4 /* NSTask+EZTermination.h in Headers */ = {isa = PBXBuildFile; fileRef = 768DB50529F7BC1800CEF1F4 /* NSTask+EZTermination.h */; };
+		768DB50829F7BC1800CEF1F4 /* NSTask+EZTermination.m in Sources */ = {isa = PBXBuildFile; fileRef = 768DB50629F7BC1800CEF1F4 /* NSTask+EZTermination.m */; };
+		768DB50B29F7BE4300CEF1F4 /* EZUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 768DB50929F7BE4300CEF1F4 /* EZUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		768DB50C29F7BE4300CEF1F4 /* EZUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 768DB50A29F7BE4300CEF1F4 /* EZUtil.m */; };
+		768DB51129F7C33D00CEF1F4 /* NSData+AES.h in Headers */ = {isa = PBXBuildFile; fileRef = 768DB50D29F7C33D00CEF1F4 /* NSData+AES.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		768DB51229F7C33D00CEF1F4 /* NSData+AES.m in Sources */ = {isa = PBXBuildFile; fileRef = 768DB50E29F7C33D00CEF1F4 /* NSData+AES.m */; };
+		768DB51329F7C33D00CEF1F4 /* NSData+GZIP.m in Sources */ = {isa = PBXBuildFile; fileRef = 768DB50F29F7C33D00CEF1F4 /* NSData+GZIP.m */; };
+		768DB51429F7C33D00CEF1F4 /* NSData+GZIP.h in Headers */ = {isa = PBXBuildFile; fileRef = 768DB51029F7C33D00CEF1F4 /* NSData+GZIP.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		768DB51F29F7E33300CEF1F4 /* NSArray+EZFunctional.h in Headers */ = {isa = PBXBuildFile; fileRef = 768DB51D29F7E33300CEF1F4 /* NSArray+EZFunctional.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		768DB52029F7E33300CEF1F4 /* NSObject+EZFunctional.m in Sources */ = {isa = PBXBuildFile; fileRef = 768DB51E29F7E33300CEF1F4 /* NSObject+EZFunctional.m */; };
+		768DB52329F8CACA00CEF1F4 /* NSSet+EZFunctional.h in Headers */ = {isa = PBXBuildFile; fileRef = 768DB52129F8CACA00CEF1F4 /* NSSet+EZFunctional.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		768DB52729F8CAFF00CEF1F4 /* NSOrderedSet+EZFunctional.h in Headers */ = {isa = PBXBuildFile; fileRef = 768DB52529F8CAFF00CEF1F4 /* NSOrderedSet+EZFunctional.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		768DB52C29F8CB4B00CEF1F4 /* NSDictionary+EZFunctional.h in Headers */ = {isa = PBXBuildFile; fileRef = 768DB52A29F8CB4B00CEF1F4 /* NSDictionary+EZFunctional.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		768DB52D29F8CB4B00CEF1F4 /* NSDictionary+EZFunctional.m in Sources */ = {isa = PBXBuildFile; fileRef = 768DB52B29F8CB4B00CEF1F4 /* NSDictionary+EZFunctional.m */; };
+		768DB53329F9095E00CEF1F4 /* EZCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 768DB53229F9095E00CEF1F4 /* EZCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		768DB53529F9099800CEF1F4 /* EZSwiftyType.h in Headers */ = {isa = PBXBuildFile; fileRef = 768DB53429F9099800CEF1F4 /* EZSwiftyType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		768DB53829F90D1800CEF1F4 /* EZStack.h in Headers */ = {isa = PBXBuildFile; fileRef = 768DB53629F90D1800CEF1F4 /* EZStack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		768DB53929F90D1800CEF1F4 /* EZStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 768DB53729F90D1800CEF1F4 /* EZStack.m */; };
+		768DB53C29F90E6300CEF1F4 /* EZQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 768DB53A29F90E6300CEF1F4 /* EZQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		768DB53D29F90E6300CEF1F4 /* EZQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 768DB53B29F90E6300CEF1F4 /* EZQueue.m */; };
+		768DB57129F9316B00CEF1F4 /* FBLPromise+Validate.m in Sources */ = {isa = PBXBuildFile; fileRef = 768DB54629F9316A00CEF1F4 /* FBLPromise+Validate.m */; };
+		768DB57229F9316B00CEF1F4 /* FBLPromiseError.m in Sources */ = {isa = PBXBuildFile; fileRef = 768DB54729F9316A00CEF1F4 /* FBLPromiseError.m */; };
+		768DB57329F9316B00CEF1F4 /* FBLPromise+Wrap.m in Sources */ = {isa = PBXBuildFile; fileRef = 768DB54829F9316A00CEF1F4 /* FBLPromise+Wrap.m */; };
+		768DB57429F9316B00CEF1F4 /* FBLPromise+Then.m in Sources */ = {isa = PBXBuildFile; fileRef = 768DB54929F9316A00CEF1F4 /* FBLPromise+Then.m */; };
+		768DB57529F9316B00CEF1F4 /* FBLPromise+Do.m in Sources */ = {isa = PBXBuildFile; fileRef = 768DB54A29F9316A00CEF1F4 /* FBLPromise+Do.m */; };
+		768DB57629F9316B00CEF1F4 /* FBLPromise+Timeout.m in Sources */ = {isa = PBXBuildFile; fileRef = 768DB54B29F9316A00CEF1F4 /* FBLPromise+Timeout.m */; };
+		768DB57729F9316B00CEF1F4 /* FBLPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = 768DB54C29F9316A00CEF1F4 /* FBLPromise.m */; };
+		768DB57829F9316B00CEF1F4 /* FBLPromise+Recover.m in Sources */ = {isa = PBXBuildFile; fileRef = 768DB54D29F9316A00CEF1F4 /* FBLPromise+Recover.m */; };
+		768DB57929F9316B00CEF1F4 /* FBLPromise+Race.m in Sources */ = {isa = PBXBuildFile; fileRef = 768DB54E29F9316A00CEF1F4 /* FBLPromise+Race.m */; };
+		768DB57A29F9316B00CEF1F4 /* FBLPromise+Async.m in Sources */ = {isa = PBXBuildFile; fileRef = 768DB54F29F9316A00CEF1F4 /* FBLPromise+Async.m */; };
+		768DB57B29F9316B00CEF1F4 /* FBLPromise+All.m in Sources */ = {isa = PBXBuildFile; fileRef = 768DB55029F9316A00CEF1F4 /* FBLPromise+All.m */; };
+		768DB57C29F9316B00CEF1F4 /* FBLPromise+Any.m in Sources */ = {isa = PBXBuildFile; fileRef = 768DB55129F9316A00CEF1F4 /* FBLPromise+Any.m */; };
+		768DB57D29F9316B00CEF1F4 /* FBLPromise+Catch.m in Sources */ = {isa = PBXBuildFile; fileRef = 768DB55229F9316A00CEF1F4 /* FBLPromise+Catch.m */; };
+		768DB57E29F9316B00CEF1F4 /* FBLPromise+Await.m in Sources */ = {isa = PBXBuildFile; fileRef = 768DB55329F9316A00CEF1F4 /* FBLPromise+Await.m */; };
+		768DB57F29F9316B00CEF1F4 /* FBLPromise+Retry.m in Sources */ = {isa = PBXBuildFile; fileRef = 768DB55429F9316A00CEF1F4 /* FBLPromise+Retry.m */; };
+		768DB58029F9316B00CEF1F4 /* FBLPromise+Testing.m in Sources */ = {isa = PBXBuildFile; fileRef = 768DB55529F9316B00CEF1F4 /* FBLPromise+Testing.m */; };
+		768DB58129F9316B00CEF1F4 /* FBLPromise+Always.m in Sources */ = {isa = PBXBuildFile; fileRef = 768DB55629F9316B00CEF1F4 /* FBLPromise+Always.m */; };
+		768DB58229F9316B00CEF1F4 /* FBLPromise+Testing.h in Headers */ = {isa = PBXBuildFile; fileRef = 768DB55829F9316B00CEF1F4 /* FBLPromise+Testing.h */; };
+		768DB58329F9316B00CEF1F4 /* FBLPromise+Reduce.h in Headers */ = {isa = PBXBuildFile; fileRef = 768DB55929F9316B00CEF1F4 /* FBLPromise+Reduce.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		768DB58429F9316B00CEF1F4 /* FBLPromise+Catch.h in Headers */ = {isa = PBXBuildFile; fileRef = 768DB55A29F9316B00CEF1F4 /* FBLPromise+Catch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		768DB58529F9316B00CEF1F4 /* FBLPromise+Recover.h in Headers */ = {isa = PBXBuildFile; fileRef = 768DB55B29F9316B00CEF1F4 /* FBLPromise+Recover.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		768DB58629F9316B00CEF1F4 /* FBLPromise+Validate.h in Headers */ = {isa = PBXBuildFile; fileRef = 768DB55C29F9316B00CEF1F4 /* FBLPromise+Validate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		768DB58729F9316B00CEF1F4 /* FBLPromise+All.h in Headers */ = {isa = PBXBuildFile; fileRef = 768DB55D29F9316B00CEF1F4 /* FBLPromise+All.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		768DB58829F9316B00CEF1F4 /* FBLPromise+Race.h in Headers */ = {isa = PBXBuildFile; fileRef = 768DB55E29F9316B00CEF1F4 /* FBLPromise+Race.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		768DB58929F9316B00CEF1F4 /* FBLPromise+Wrap.h in Headers */ = {isa = PBXBuildFile; fileRef = 768DB55F29F9316B00CEF1F4 /* FBLPromise+Wrap.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		768DB58A29F9316B00CEF1F4 /* FBLPromise.h in Headers */ = {isa = PBXBuildFile; fileRef = 768DB56029F9316B00CEF1F4 /* FBLPromise.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		768DB58B29F9316B00CEF1F4 /* FBLPromises.h in Headers */ = {isa = PBXBuildFile; fileRef = 768DB56129F9316B00CEF1F4 /* FBLPromises.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		768DB58C29F9316B00CEF1F4 /* FBLPromisePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 768DB56229F9316B00CEF1F4 /* FBLPromisePrivate.h */; };
+		768DB58D29F9316B00CEF1F4 /* FBLPromise+Retry.h in Headers */ = {isa = PBXBuildFile; fileRef = 768DB56329F9316B00CEF1F4 /* FBLPromise+Retry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		768DB58E29F9316B00CEF1F4 /* FBLPromise+Await.h in Headers */ = {isa = PBXBuildFile; fileRef = 768DB56429F9316B00CEF1F4 /* FBLPromise+Await.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		768DB58F29F9316B00CEF1F4 /* FBLPromise+Delay.h in Headers */ = {isa = PBXBuildFile; fileRef = 768DB56529F9316B00CEF1F4 /* FBLPromise+Delay.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		768DB59029F9316B00CEF1F4 /* FBLPromise+Do.h in Headers */ = {isa = PBXBuildFile; fileRef = 768DB56629F9316B00CEF1F4 /* FBLPromise+Do.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		768DB59129F9316B00CEF1F4 /* FBLPromise+Timeout.h in Headers */ = {isa = PBXBuildFile; fileRef = 768DB56729F9316B00CEF1F4 /* FBLPromise+Timeout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		768DB59229F9316B00CEF1F4 /* FBLPromiseError.h in Headers */ = {isa = PBXBuildFile; fileRef = 768DB56829F9316B00CEF1F4 /* FBLPromiseError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		768DB59329F9316B00CEF1F4 /* FBLPromise+Then.h in Headers */ = {isa = PBXBuildFile; fileRef = 768DB56929F9316B00CEF1F4 /* FBLPromise+Then.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		768DB59429F9316B00CEF1F4 /* FBLPromise+Async.h in Headers */ = {isa = PBXBuildFile; fileRef = 768DB56B29F9316B00CEF1F4 /* FBLPromise+Async.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		768DB59529F9316B00CEF1F4 /* FBLPromise+Always.h in Headers */ = {isa = PBXBuildFile; fileRef = 768DB56C29F9316B00CEF1F4 /* FBLPromise+Always.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		768DB59629F9316B00CEF1F4 /* FBLPromise+Any.h in Headers */ = {isa = PBXBuildFile; fileRef = 768DB56E29F9316B00CEF1F4 /* FBLPromise+Any.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		768DB59729F9316B00CEF1F4 /* FBLPromise+Reduce.m in Sources */ = {isa = PBXBuildFile; fileRef = 768DB56F29F9316B00CEF1F4 /* FBLPromise+Reduce.m */; };
+		768DB59829F9316B00CEF1F4 /* FBLPromise+Delay.m in Sources */ = {isa = PBXBuildFile; fileRef = 768DB57029F9316B00CEF1F4 /* FBLPromise+Delay.m */; };
+		768DB59B29F9325000CEF1F4 /* EZVendor.h in Headers */ = {isa = PBXBuildFile; fileRef = 768DB59A29F9325000CEF1F4 /* EZVendor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76BC747629FA5BEE001E6D8B /* EZFileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 76BC747429FA5BEE001E6D8B /* EZFileManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76BC747729FA5BEE001E6D8B /* EZFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BC747529FA5BEE001E6D8B /* EZFileManager.m */; };
+		76F08B3F29F934FB009B2B92 /* ZipArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = 76F08B0529F934FA009B2B92 /* ZipArchive.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76F08B4029F934FB009B2B92 /* crypt.c in Sources */ = {isa = PBXBuildFile; fileRef = 76F08B0729F934FA009B2B92 /* crypt.c */; };
+		76F08B4129F934FB009B2B92 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 76F08B0829F934FA009B2B92 /* unzip.c */; };
+		76F08B4229F934FB009B2B92 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 76F08B0929F934FA009B2B92 /* zip.c */; };
+		76F08B4329F934FB009B2B92 /* minishared.h in Headers */ = {isa = PBXBuildFile; fileRef = 76F08B0A29F934FA009B2B92 /* minishared.h */; };
+		76F08B4429F934FB009B2B92 /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 76F08B0B29F934FA009B2B92 /* ioapi.c */; };
+		76F08B4529F934FB009B2B92 /* ioapi_mem.h in Headers */ = {isa = PBXBuildFile; fileRef = 76F08B0C29F934FA009B2B92 /* ioapi_mem.h */; };
+		76F08B4629F934FB009B2B92 /* ioapi_buf.c in Sources */ = {isa = PBXBuildFile; fileRef = 76F08B0D29F934FA009B2B92 /* ioapi_buf.c */; };
+		76F08B4729F934FB009B2B92 /* crypt.h in Headers */ = {isa = PBXBuildFile; fileRef = 76F08B0E29F934FA009B2B92 /* crypt.h */; };
+		76F08B4829F934FB009B2B92 /* zip.h in Headers */ = {isa = PBXBuildFile; fileRef = 76F08B0F29F934FA009B2B92 /* zip.h */; };
+		76F08B4929F934FB009B2B92 /* unzip.h in Headers */ = {isa = PBXBuildFile; fileRef = 76F08B1029F934FA009B2B92 /* unzip.h */; };
+		76F08B4A29F934FB009B2B92 /* ioapi_mem.c in Sources */ = {isa = PBXBuildFile; fileRef = 76F08B1129F934FA009B2B92 /* ioapi_mem.c */; };
+		76F08B4B29F934FB009B2B92 /* minishared.c in Sources */ = {isa = PBXBuildFile; fileRef = 76F08B1229F934FA009B2B92 /* minishared.c */; };
+		76F08B4C29F934FB009B2B92 /* ioapi.h in Headers */ = {isa = PBXBuildFile; fileRef = 76F08B1329F934FA009B2B92 /* ioapi.h */; };
+		76F08B4D29F934FB009B2B92 /* ioapi_buf.h in Headers */ = {isa = PBXBuildFile; fileRef = 76F08B1429F934FA009B2B92 /* ioapi_buf.h */; };
+		76F08B4E29F934FB009B2B92 /* prng.h in Headers */ = {isa = PBXBuildFile; fileRef = 76F08B1629F934FA009B2B92 /* prng.h */; };
+		76F08B4F29F934FB009B2B92 /* aes_ni.h in Headers */ = {isa = PBXBuildFile; fileRef = 76F08B1729F934FA009B2B92 /* aes_ni.h */; };
+		76F08B5029F934FB009B2B92 /* aeskey.c in Sources */ = {isa = PBXBuildFile; fileRef = 76F08B1829F934FA009B2B92 /* aeskey.c */; };
+		76F08B5129F934FB009B2B92 /* hmac.c in Sources */ = {isa = PBXBuildFile; fileRef = 76F08B1929F934FA009B2B92 /* hmac.c */; };
+		76F08B5229F934FB009B2B92 /* aestab.h in Headers */ = {isa = PBXBuildFile; fileRef = 76F08B1A29F934FA009B2B92 /* aestab.h */; };
+		76F08B5329F934FB009B2B92 /* pwd2key.h in Headers */ = {isa = PBXBuildFile; fileRef = 76F08B1B29F934FA009B2B92 /* pwd2key.h */; };
+		76F08B5429F934FB009B2B92 /* aescrypt.c in Sources */ = {isa = PBXBuildFile; fileRef = 76F08B1C29F934FA009B2B92 /* aescrypt.c */; };
+		76F08B5529F934FB009B2B92 /* fileenc.c in Sources */ = {isa = PBXBuildFile; fileRef = 76F08B1D29F934FA009B2B92 /* fileenc.c */; };
+		76F08B5629F934FB009B2B92 /* aesopt.h in Headers */ = {isa = PBXBuildFile; fileRef = 76F08B1E29F934FA009B2B92 /* aesopt.h */; };
+		76F08B5729F934FB009B2B92 /* sha1.c in Sources */ = {isa = PBXBuildFile; fileRef = 76F08B1F29F934FA009B2B92 /* sha1.c */; };
+		76F08B5829F934FB009B2B92 /* brg_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 76F08B2029F934FA009B2B92 /* brg_types.h */; };
+		76F08B5929F934FB009B2B92 /* hmac.h in Headers */ = {isa = PBXBuildFile; fileRef = 76F08B2129F934FA009B2B92 /* hmac.h */; };
+		76F08B5A29F934FB009B2B92 /* aes_ni.c in Sources */ = {isa = PBXBuildFile; fileRef = 76F08B2229F934FA009B2B92 /* aes_ni.c */; };
+		76F08B5B29F934FB009B2B92 /* brg_endian.h in Headers */ = {isa = PBXBuildFile; fileRef = 76F08B2329F934FA009B2B92 /* brg_endian.h */; };
+		76F08B5C29F934FB009B2B92 /* prng.c in Sources */ = {isa = PBXBuildFile; fileRef = 76F08B2429F934FA009B2B92 /* prng.c */; };
+		76F08B5D29F934FB009B2B92 /* aes.h in Headers */ = {isa = PBXBuildFile; fileRef = 76F08B2529F934FA009B2B92 /* aes.h */; };
+		76F08B5E29F934FB009B2B92 /* pwd2key.c in Sources */ = {isa = PBXBuildFile; fileRef = 76F08B2629F934FA009B2B92 /* pwd2key.c */; };
+		76F08B5F29F934FB009B2B92 /* aestab.c in Sources */ = {isa = PBXBuildFile; fileRef = 76F08B2729F934FA009B2B92 /* aestab.c */; };
+		76F08B6029F934FB009B2B92 /* sha1.h in Headers */ = {isa = PBXBuildFile; fileRef = 76F08B2829F934FA009B2B92 /* sha1.h */; };
+		76F08B6129F934FB009B2B92 /* fileenc.h in Headers */ = {isa = PBXBuildFile; fileRef = 76F08B2929F934FA009B2B92 /* fileenc.h */; };
+		76F08B6229F934FB009B2B92 /* SSZipArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = 76F08B2A29F934FA009B2B92 /* SSZipArchive.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76F08B6329F934FB009B2B92 /* SSZipCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 76F08B2B29F934FA009B2B92 /* SSZipCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76F08B6429F934FB009B2B92 /* SSZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F08B2C29F934FA009B2B92 /* SSZipArchive.m */; };
+		76F08B6529F934FB009B2B92 /* FMDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = 76F08B2E29F934FB009B2B92 /* FMDatabase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76F08B6629F934FB009B2B92 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F08B2F29F934FB009B2B92 /* FMDatabaseQueue.m */; };
+		76F08B6729F934FB009B2B92 /* FMResultSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 76F08B3029F934FB009B2B92 /* FMResultSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76F08B6829F934FB009B2B92 /* FMDatabasePool.h in Headers */ = {isa = PBXBuildFile; fileRef = 76F08B3129F934FB009B2B92 /* FMDatabasePool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76F08B6929F934FB009B2B92 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F08B3229F934FB009B2B92 /* FMDatabaseAdditions.m */; };
+		76F08B6A29F934FB009B2B92 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F08B3329F934FB009B2B92 /* FMDatabase.m */; };
+		76F08B6B29F934FB009B2B92 /* FMDatabaseQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 76F08B3429F934FB009B2B92 /* FMDatabaseQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76F08B6C29F934FB009B2B92 /* FMDB.h in Headers */ = {isa = PBXBuildFile; fileRef = 76F08B3529F934FB009B2B92 /* FMDB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76F08B6D29F934FB009B2B92 /* FMDatabaseAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 76F08B3629F934FB009B2B92 /* FMDatabaseAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76F08B6E29F934FB009B2B92 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F08B3729F934FB009B2B92 /* FMDatabasePool.m */; };
+		76F08B6F29F934FB009B2B92 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F08B3829F934FB009B2B92 /* FMResultSet.m */; };
+		76F08B7029F934FB009B2B92 /* YYClassInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 76F08B3A29F934FB009B2B92 /* YYClassInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76F08B7129F934FB009B2B92 /* YYModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 76F08B3B29F934FB009B2B92 /* YYModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76F08B7229F934FB009B2B92 /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F08B3C29F934FB009B2B92 /* NSObject+YYModel.m */; };
+		76F08B7329F934FB009B2B92 /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F08B3D29F934FB009B2B92 /* YYClassInfo.m */; };
+		76F08B7429F934FB009B2B92 /* NSObject+YYModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 76F08B3E29F934FB009B2B92 /* NSObject+YYModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76F08B7829F9364A009B2B92 /* EZHTTPRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 76F08B7629F9364A009B2B92 /* EZHTTPRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76F08B7929F9364A009B2B92 /* EZHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F08B7729F9364A009B2B92 /* EZHTTPRequest.m */; };
+		76F08B7C29F937E2009B2B92 /* EZMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 76F08B7B29F937E2009B2B92 /* EZMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76F08B7F29F93D0C009B2B92 /* EZLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 76F08B7D29F93D0C009B2B92 /* EZLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76F08B8029F93D0C009B2B92 /* EZLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F08B7E29F93D0C009B2B92 /* EZLogger.m */; };
 		850732A198815CEADBB998ED6EC3E0A2 /* EZToolKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF26F4C079494ED938A972366892C99 /* EZToolKit-dummy.m */; };
 		90D13268FE260152751D9819BDBF6D77 /* Pods-EZToolKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F067E7F3830314986B90F40152D50D4 /* Pods-EZToolKit_Example-dummy.m */; };
 		AA40AA25502747A7866AD34AD6DA4F0A /* EZToolKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E37086A75FD116D9F476E1C495F2F739 /* EZToolKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D034AFC5C4ACF0F85555F80DD5DBF5FC /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CCE0F823CE836C93A65D53AEB10F788 /* ReplaceMe.m */; };
 		F0DE3DDC25D8F6C5D335B8969E5DB3CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -41,35 +195,189 @@
 		10DFBDC1ECF19AEA95A422CDE1B5C8B7 /* Pods-EZToolKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EZToolKit_Tests.modulemap"; sourceTree = "<group>"; };
 		11CD4817EA5182E86805C5A9848B52E0 /* Pods-EZToolKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EZToolKit_Tests-umbrella.h"; sourceTree = "<group>"; };
 		2119E314A6C91126AE8335B3F79DB08C /* Pods-EZToolKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EZToolKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		2793032F5EFAFE2861D8654E254E255D /* Pods-EZToolKit_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-EZToolKit_Tests"; path = Pods_EZToolKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2793032F5EFAFE2861D8654E254E255D /* Pods_EZToolKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EZToolKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3003C0CBAC9A03ED253418290F2D895F /* Pods-EZToolKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EZToolKit_Tests-dummy.m"; sourceTree = "<group>"; };
 		3C80FEFE693190A6CE454422A64B2ED5 /* Pods-EZToolKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EZToolKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		42A0E6C8E885FC83E2129D31501600AF /* EZToolKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EZToolKit-prefix.pch"; sourceTree = "<group>"; };
 		602B71CA0CFF704975ACBF5C8CFEA14F /* Pods-EZToolKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EZToolKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		63CC3E23533CEF400C36AEBB55D5A479 /* Pods-EZToolKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EZToolKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		6AE7579B73F798A0473BA288DBD6933B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		6AE7579B73F798A0473BA288DBD6933B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		6BA24C5F4DD57D6C77B93E6CA95FB130 /* EZToolKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EZToolKit.debug.xcconfig; sourceTree = "<group>"; };
 		70DBF52C098C94B2685A8F6FE19C34F5 /* EZToolKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EZToolKit.modulemap; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7946A636E21A3E34300E6630568CC4FD /* Pods-EZToolKit_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-EZToolKit_Example"; path = Pods_EZToolKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7611E0512A0A471A00CADCFF /* TFHppleElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHppleElement.h; sourceTree = "<group>"; };
+		7611E0522A0A471A00CADCFF /* TFHpple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHpple.m; sourceTree = "<group>"; };
+		7611E0532A0A471A00CADCFF /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPathQuery.h; sourceTree = "<group>"; };
+		7611E0542A0A471A00CADCFF /* TFHpple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHpple.h; sourceTree = "<group>"; };
+		7611E0552A0A471A00CADCFF /* TFHppleElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHppleElement.m; sourceTree = "<group>"; };
+		7611E0562A0A471A00CADCFF /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPathQuery.m; sourceTree = "<group>"; };
+		7611E05E2A0A47A700CADCFF /* EZApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZApp.h; sourceTree = "<group>"; };
+		7611E0602A0A4ADD00CADCFF /* EZAppLauncher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EZAppLauncher.h; sourceTree = "<group>"; };
+		7611E0612A0A4ADD00CADCFF /* EZAppLauncher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EZAppLauncher.m; sourceTree = "<group>"; };
+		7611E0642A0A4EF500CADCFF /* NSObject+FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+FMDB.h"; sourceTree = "<group>"; };
+		7611E0652A0A4EF600CADCFF /* NSObject+FMDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+FMDB.m"; sourceTree = "<group>"; };
+		7611E0682A0A500B00CADCFF /* EZAppEnvManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EZAppEnvManager.h; sourceTree = "<group>"; };
+		7611E0692A0A500B00CADCFF /* EZAppEnvManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EZAppEnvManager.m; sourceTree = "<group>"; };
+		7633366229ED50EF00B54080 /* EZDeallocObjectObserver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EZDeallocObjectObserver.h; sourceTree = "<group>"; };
+		7633366329ED50EF00B54080 /* EZDeallocObjectObserver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EZDeallocObjectObserver.m; sourceTree = "<group>"; };
+		7633366629ED542D00B54080 /* EZTopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZTopViewController.m; sourceTree = "<group>"; };
+		7633366729ED542D00B54080 /* EZTopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZTopViewController.h; sourceTree = "<group>"; };
+		7633366A29ED5FCE00B54080 /* EZInvoke.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZInvoke.h; sourceTree = "<group>"; };
+		7633366B29ED5FCE00B54080 /* EZInvoke.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZInvoke.m; sourceTree = "<group>"; };
+		76799CF42A035A6C0022E031 /* EZFileLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EZFileLogger.h; sourceTree = "<group>"; };
+		76799CF52A035A6C0022E031 /* EZFileLogger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EZFileLogger.m; sourceTree = "<group>"; };
+		76799CFC2A04A45E0022E031 /* EZAppInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EZAppInfo.h; sourceTree = "<group>"; };
+		76799CFD2A04A45E0022E031 /* EZAppInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EZAppInfo.m; sourceTree = "<group>"; };
+		76799D002A04A5110022E031 /* EZAppManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EZAppManager.h; sourceTree = "<group>"; };
+		76799D012A04A5110022E031 /* EZAppManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EZAppManager.m; sourceTree = "<group>"; };
+		768DB4EF29F7B36C00CEF1F4 /* EZObjectInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EZObjectInfo.h; sourceTree = "<group>"; };
+		768DB4F029F7B36C00CEF1F4 /* EZObjectInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EZObjectInfo.m; sourceTree = "<group>"; };
+		768DB4F329F7B84C00CEF1F4 /* NSObject+Nonnull.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Nonnull.h"; sourceTree = "<group>"; };
+		768DB4F429F7B84C00CEF1F4 /* NSObject+Nonnull.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Nonnull.m"; sourceTree = "<group>"; };
+		768DB4FB29F7BA4600CEF1F4 /* EZCommandRunner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EZCommandRunner.h; sourceTree = "<group>"; };
+		768DB4FC29F7BA4600CEF1F4 /* EZCommandRunner.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EZCommandRunner.m; sourceTree = "<group>"; };
+		768DB50029F7BBAD00CEF1F4 /* libproc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libproc.h; sourceTree = "<group>"; };
+		768DB50129F7BBAD00CEF1F4 /* NSTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSTask.h; sourceTree = "<group>"; };
+		768DB50529F7BC1800CEF1F4 /* NSTask+EZTermination.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTask+EZTermination.h"; sourceTree = "<group>"; };
+		768DB50629F7BC1800CEF1F4 /* NSTask+EZTermination.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTask+EZTermination.m"; sourceTree = "<group>"; };
+		768DB50929F7BE4300CEF1F4 /* EZUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EZUtil.h; sourceTree = "<group>"; };
+		768DB50A29F7BE4300CEF1F4 /* EZUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EZUtil.m; sourceTree = "<group>"; };
+		768DB50D29F7C33D00CEF1F4 /* NSData+AES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+AES.h"; sourceTree = "<group>"; };
+		768DB50E29F7C33D00CEF1F4 /* NSData+AES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+AES.m"; sourceTree = "<group>"; };
+		768DB50F29F7C33D00CEF1F4 /* NSData+GZIP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+GZIP.m"; sourceTree = "<group>"; };
+		768DB51029F7C33D00CEF1F4 /* NSData+GZIP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+GZIP.h"; sourceTree = "<group>"; };
+		768DB51D29F7E33300CEF1F4 /* NSArray+EZFunctional.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+EZFunctional.h"; sourceTree = "<group>"; };
+		768DB51E29F7E33300CEF1F4 /* NSObject+EZFunctional.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+EZFunctional.m"; sourceTree = "<group>"; };
+		768DB52129F8CACA00CEF1F4 /* NSSet+EZFunctional.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSSet+EZFunctional.h"; sourceTree = "<group>"; };
+		768DB52529F8CAFF00CEF1F4 /* NSOrderedSet+EZFunctional.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSOrderedSet+EZFunctional.h"; sourceTree = "<group>"; };
+		768DB52A29F8CB4B00CEF1F4 /* NSDictionary+EZFunctional.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+EZFunctional.h"; sourceTree = "<group>"; };
+		768DB52B29F8CB4B00CEF1F4 /* NSDictionary+EZFunctional.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+EZFunctional.m"; sourceTree = "<group>"; };
+		768DB53229F9095E00CEF1F4 /* EZCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZCommon.h; sourceTree = "<group>"; };
+		768DB53429F9099800CEF1F4 /* EZSwiftyType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZSwiftyType.h; sourceTree = "<group>"; };
+		768DB53629F90D1800CEF1F4 /* EZStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EZStack.h; sourceTree = "<group>"; };
+		768DB53729F90D1800CEF1F4 /* EZStack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EZStack.m; sourceTree = "<group>"; };
+		768DB53A29F90E6300CEF1F4 /* EZQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EZQueue.h; sourceTree = "<group>"; };
+		768DB53B29F90E6300CEF1F4 /* EZQueue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EZQueue.m; sourceTree = "<group>"; };
+		768DB54629F9316A00CEF1F4 /* FBLPromise+Validate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FBLPromise+Validate.m"; sourceTree = "<group>"; };
+		768DB54729F9316A00CEF1F4 /* FBLPromiseError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBLPromiseError.m; sourceTree = "<group>"; };
+		768DB54829F9316A00CEF1F4 /* FBLPromise+Wrap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FBLPromise+Wrap.m"; sourceTree = "<group>"; };
+		768DB54929F9316A00CEF1F4 /* FBLPromise+Then.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FBLPromise+Then.m"; sourceTree = "<group>"; };
+		768DB54A29F9316A00CEF1F4 /* FBLPromise+Do.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FBLPromise+Do.m"; sourceTree = "<group>"; };
+		768DB54B29F9316A00CEF1F4 /* FBLPromise+Timeout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FBLPromise+Timeout.m"; sourceTree = "<group>"; };
+		768DB54C29F9316A00CEF1F4 /* FBLPromise.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBLPromise.m; sourceTree = "<group>"; };
+		768DB54D29F9316A00CEF1F4 /* FBLPromise+Recover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FBLPromise+Recover.m"; sourceTree = "<group>"; };
+		768DB54E29F9316A00CEF1F4 /* FBLPromise+Race.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FBLPromise+Race.m"; sourceTree = "<group>"; };
+		768DB54F29F9316A00CEF1F4 /* FBLPromise+Async.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FBLPromise+Async.m"; sourceTree = "<group>"; };
+		768DB55029F9316A00CEF1F4 /* FBLPromise+All.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FBLPromise+All.m"; sourceTree = "<group>"; };
+		768DB55129F9316A00CEF1F4 /* FBLPromise+Any.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FBLPromise+Any.m"; sourceTree = "<group>"; };
+		768DB55229F9316A00CEF1F4 /* FBLPromise+Catch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FBLPromise+Catch.m"; sourceTree = "<group>"; };
+		768DB55329F9316A00CEF1F4 /* FBLPromise+Await.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FBLPromise+Await.m"; sourceTree = "<group>"; };
+		768DB55429F9316A00CEF1F4 /* FBLPromise+Retry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FBLPromise+Retry.m"; sourceTree = "<group>"; };
+		768DB55529F9316B00CEF1F4 /* FBLPromise+Testing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FBLPromise+Testing.m"; sourceTree = "<group>"; };
+		768DB55629F9316B00CEF1F4 /* FBLPromise+Always.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FBLPromise+Always.m"; sourceTree = "<group>"; };
+		768DB55829F9316B00CEF1F4 /* FBLPromise+Testing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FBLPromise+Testing.h"; sourceTree = "<group>"; };
+		768DB55929F9316B00CEF1F4 /* FBLPromise+Reduce.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FBLPromise+Reduce.h"; sourceTree = "<group>"; };
+		768DB55A29F9316B00CEF1F4 /* FBLPromise+Catch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FBLPromise+Catch.h"; sourceTree = "<group>"; };
+		768DB55B29F9316B00CEF1F4 /* FBLPromise+Recover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FBLPromise+Recover.h"; sourceTree = "<group>"; };
+		768DB55C29F9316B00CEF1F4 /* FBLPromise+Validate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FBLPromise+Validate.h"; sourceTree = "<group>"; };
+		768DB55D29F9316B00CEF1F4 /* FBLPromise+All.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FBLPromise+All.h"; sourceTree = "<group>"; };
+		768DB55E29F9316B00CEF1F4 /* FBLPromise+Race.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FBLPromise+Race.h"; sourceTree = "<group>"; };
+		768DB55F29F9316B00CEF1F4 /* FBLPromise+Wrap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FBLPromise+Wrap.h"; sourceTree = "<group>"; };
+		768DB56029F9316B00CEF1F4 /* FBLPromise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBLPromise.h; sourceTree = "<group>"; };
+		768DB56129F9316B00CEF1F4 /* FBLPromises.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBLPromises.h; sourceTree = "<group>"; };
+		768DB56229F9316B00CEF1F4 /* FBLPromisePrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBLPromisePrivate.h; sourceTree = "<group>"; };
+		768DB56329F9316B00CEF1F4 /* FBLPromise+Retry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FBLPromise+Retry.h"; sourceTree = "<group>"; };
+		768DB56429F9316B00CEF1F4 /* FBLPromise+Await.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FBLPromise+Await.h"; sourceTree = "<group>"; };
+		768DB56529F9316B00CEF1F4 /* FBLPromise+Delay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FBLPromise+Delay.h"; sourceTree = "<group>"; };
+		768DB56629F9316B00CEF1F4 /* FBLPromise+Do.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FBLPromise+Do.h"; sourceTree = "<group>"; };
+		768DB56729F9316B00CEF1F4 /* FBLPromise+Timeout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FBLPromise+Timeout.h"; sourceTree = "<group>"; };
+		768DB56829F9316B00CEF1F4 /* FBLPromiseError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBLPromiseError.h; sourceTree = "<group>"; };
+		768DB56929F9316B00CEF1F4 /* FBLPromise+Then.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FBLPromise+Then.h"; sourceTree = "<group>"; };
+		768DB56B29F9316B00CEF1F4 /* FBLPromise+Async.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FBLPromise+Async.h"; sourceTree = "<group>"; };
+		768DB56C29F9316B00CEF1F4 /* FBLPromise+Always.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FBLPromise+Always.h"; sourceTree = "<group>"; };
+		768DB56E29F9316B00CEF1F4 /* FBLPromise+Any.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FBLPromise+Any.h"; sourceTree = "<group>"; };
+		768DB56F29F9316B00CEF1F4 /* FBLPromise+Reduce.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FBLPromise+Reduce.m"; sourceTree = "<group>"; };
+		768DB57029F9316B00CEF1F4 /* FBLPromise+Delay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FBLPromise+Delay.m"; sourceTree = "<group>"; };
+		768DB59A29F9325000CEF1F4 /* EZVendor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZVendor.h; sourceTree = "<group>"; };
+		76BC747429FA5BEE001E6D8B /* EZFileManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EZFileManager.h; sourceTree = "<group>"; };
+		76BC747529FA5BEE001E6D8B /* EZFileManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EZFileManager.m; sourceTree = "<group>"; };
+		76F08B0529F934FA009B2B92 /* ZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZipArchive.h; sourceTree = "<group>"; };
+		76F08B0729F934FA009B2B92 /* crypt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = crypt.c; sourceTree = "<group>"; };
+		76F08B0829F934FA009B2B92 /* unzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unzip.c; sourceTree = "<group>"; };
+		76F08B0929F934FA009B2B92 /* zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zip.c; sourceTree = "<group>"; };
+		76F08B0A29F934FA009B2B92 /* minishared.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = minishared.h; sourceTree = "<group>"; };
+		76F08B0B29F934FA009B2B92 /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioapi.c; sourceTree = "<group>"; };
+		76F08B0C29F934FA009B2B92 /* ioapi_mem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioapi_mem.h; sourceTree = "<group>"; };
+		76F08B0D29F934FA009B2B92 /* ioapi_buf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioapi_buf.c; sourceTree = "<group>"; };
+		76F08B0E29F934FA009B2B92 /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
+		76F08B0F29F934FA009B2B92 /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
+		76F08B1029F934FA009B2B92 /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unzip.h; sourceTree = "<group>"; };
+		76F08B1129F934FA009B2B92 /* ioapi_mem.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioapi_mem.c; sourceTree = "<group>"; };
+		76F08B1229F934FA009B2B92 /* minishared.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = minishared.c; sourceTree = "<group>"; };
+		76F08B1329F934FA009B2B92 /* ioapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioapi.h; sourceTree = "<group>"; };
+		76F08B1429F934FA009B2B92 /* ioapi_buf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioapi_buf.h; sourceTree = "<group>"; };
+		76F08B1629F934FA009B2B92 /* prng.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = prng.h; sourceTree = "<group>"; };
+		76F08B1729F934FA009B2B92 /* aes_ni.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aes_ni.h; sourceTree = "<group>"; };
+		76F08B1829F934FA009B2B92 /* aeskey.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aeskey.c; sourceTree = "<group>"; };
+		76F08B1929F934FA009B2B92 /* hmac.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hmac.c; sourceTree = "<group>"; };
+		76F08B1A29F934FA009B2B92 /* aestab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aestab.h; sourceTree = "<group>"; };
+		76F08B1B29F934FA009B2B92 /* pwd2key.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pwd2key.h; sourceTree = "<group>"; };
+		76F08B1C29F934FA009B2B92 /* aescrypt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aescrypt.c; sourceTree = "<group>"; };
+		76F08B1D29F934FA009B2B92 /* fileenc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fileenc.c; sourceTree = "<group>"; };
+		76F08B1E29F934FA009B2B92 /* aesopt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aesopt.h; sourceTree = "<group>"; };
+		76F08B1F29F934FA009B2B92 /* sha1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sha1.c; sourceTree = "<group>"; };
+		76F08B2029F934FA009B2B92 /* brg_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = brg_types.h; sourceTree = "<group>"; };
+		76F08B2129F934FA009B2B92 /* hmac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hmac.h; sourceTree = "<group>"; };
+		76F08B2229F934FA009B2B92 /* aes_ni.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aes_ni.c; sourceTree = "<group>"; };
+		76F08B2329F934FA009B2B92 /* brg_endian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = brg_endian.h; sourceTree = "<group>"; };
+		76F08B2429F934FA009B2B92 /* prng.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = prng.c; sourceTree = "<group>"; };
+		76F08B2529F934FA009B2B92 /* aes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aes.h; sourceTree = "<group>"; };
+		76F08B2629F934FA009B2B92 /* pwd2key.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pwd2key.c; sourceTree = "<group>"; };
+		76F08B2729F934FA009B2B92 /* aestab.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aestab.c; sourceTree = "<group>"; };
+		76F08B2829F934FA009B2B92 /* sha1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha1.h; sourceTree = "<group>"; };
+		76F08B2929F934FA009B2B92 /* fileenc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fileenc.h; sourceTree = "<group>"; };
+		76F08B2A29F934FA009B2B92 /* SSZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSZipArchive.h; sourceTree = "<group>"; };
+		76F08B2B29F934FA009B2B92 /* SSZipCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSZipCommon.h; sourceTree = "<group>"; };
+		76F08B2C29F934FA009B2B92 /* SSZipArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSZipArchive.m; sourceTree = "<group>"; };
+		76F08B2E29F934FB009B2B92 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		76F08B2F29F934FB009B2B92 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		76F08B3029F934FB009B2B92 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		76F08B3129F934FB009B2B92 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		76F08B3229F934FB009B2B92 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		76F08B3329F934FB009B2B92 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		76F08B3429F934FB009B2B92 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		76F08B3529F934FB009B2B92 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		76F08B3629F934FB009B2B92 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		76F08B3729F934FB009B2B92 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		76F08B3829F934FB009B2B92 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		76F08B3A29F934FB009B2B92 /* YYClassInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYClassInfo.h; sourceTree = "<group>"; };
+		76F08B3B29F934FB009B2B92 /* YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYModel.h; sourceTree = "<group>"; };
+		76F08B3C29F934FB009B2B92 /* NSObject+YYModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YYModel.m"; sourceTree = "<group>"; };
+		76F08B3D29F934FB009B2B92 /* YYClassInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYClassInfo.m; sourceTree = "<group>"; };
+		76F08B3E29F934FB009B2B92 /* NSObject+YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+YYModel.h"; sourceTree = "<group>"; };
+		76F08B7629F9364A009B2B92 /* EZHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZHTTPRequest.h; sourceTree = "<group>"; };
+		76F08B7729F9364A009B2B92 /* EZHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZHTTPRequest.m; sourceTree = "<group>"; };
+		76F08B7B29F937E2009B2B92 /* EZMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZMacros.h; sourceTree = "<group>"; };
+		76F08B7D29F93D0C009B2B92 /* EZLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EZLogger.h; sourceTree = "<group>"; };
+		76F08B7E29F93D0C009B2B92 /* EZLogger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EZLogger.m; sourceTree = "<group>"; };
+		7946A636E21A3E34300E6630568CC4FD /* Pods_EZToolKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EZToolKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		82B5394A24BFAAB154CAAAC06E4A2635 /* Pods-EZToolKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EZToolKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		8CCE0F823CE836C93A65D53AEB10F788 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = EZToolKit/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F067E7F3830314986B90F40152D50D4 /* Pods-EZToolKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EZToolKit_Example-dummy.m"; sourceTree = "<group>"; };
 		AC872A9B1C2D07009C9BFC599ABE49BA /* Pods-EZToolKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EZToolKit_Example-frameworks.sh"; sourceTree = "<group>"; };
 		B8065223AC560510E843267600AC818A /* Pods-EZToolKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EZToolKit_Tests-Info.plist"; sourceTree = "<group>"; };
-		BA836F2A3A263F151F67E63B9171FBAE /* EZToolKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EZToolKit; path = EZToolKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA836F2A3A263F151F67E63B9171FBAE /* EZToolKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EZToolKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCBCF710C7584577740AC823189B7950 /* EZToolKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EZToolKit.release.xcconfig; sourceTree = "<group>"; };
 		C47C6251E7073CC4EA9582AE039E6D9F /* Pods-EZToolKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EZToolKit_Example.modulemap"; sourceTree = "<group>"; };
 		CDF26F4C079494ED938A972366892C99 /* EZToolKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EZToolKit-dummy.m"; sourceTree = "<group>"; };
 		DE1B3738EF469CBCFFC7677BA0FF09AA /* Pods-EZToolKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EZToolKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E0B3B2571200704B4E977B6E3AAF825E /* EZToolKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EZToolKit-Info.plist"; sourceTree = "<group>"; };
-		E1C88D3BE6570379A536FCCD883E039B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		E1C88D3BE6570379A536FCCD883E039B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		E37086A75FD116D9F476E1C495F2F739 /* EZToolKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EZToolKit-umbrella.h"; sourceTree = "<group>"; };
 		E69FF7366CFFFCB5C1E26AF9772CD4B5 /* Pods-EZToolKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EZToolKit_Example-umbrella.h"; sourceTree = "<group>"; };
 		EC66910D79A08260019FCBF9DCBCC113 /* Pods-EZToolKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EZToolKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F685617DDFAFF514628F3D77A84FBD19 /* Pods-EZToolKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EZToolKit_Example-Info.plist"; sourceTree = "<group>"; };
-		FDDE15242083D59804342283EE2008FD /* EZToolKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = EZToolKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FDDE15242083D59804342283EE2008FD /* EZToolKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = EZToolKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,7 +427,7 @@
 		110328123CA05AFEFF638581A402E9AC /* EZToolKit */ = {
 			isa = PBXGroup;
 			children = (
-				8CCE0F823CE836C93A65D53AEB10F788 /* ReplaceMe.m */,
+				7633365E29ED50C600B54080 /* Classes */,
 				E988E1FFD4A967D464931BD5670805EA /* Pod */,
 				8FC568D64656397BF135F76D3C606F56 /* Support Files */,
 			);
@@ -150,6 +458,297 @@
 				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		7611E0502A0A471A00CADCFF /* hpple */ = {
+			isa = PBXGroup;
+			children = (
+				7611E0542A0A471A00CADCFF /* TFHpple.h */,
+				7611E0522A0A471A00CADCFF /* TFHpple.m */,
+				7611E0512A0A471A00CADCFF /* TFHppleElement.h */,
+				7611E0552A0A471A00CADCFF /* TFHppleElement.m */,
+				7611E0532A0A471A00CADCFF /* XPathQuery.h */,
+				7611E0562A0A471A00CADCFF /* XPathQuery.m */,
+			);
+			path = hpple;
+			sourceTree = "<group>";
+		};
+		7633365E29ED50C600B54080 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				76799CFB2A04A40E0022E031 /* App */,
+				768DB54329F9312800CEF1F4 /* Vendor */,
+				7633366029ED50C600B54080 /* Common */,
+			);
+			name = Classes;
+			path = EZToolKit/Classes;
+			sourceTree = "<group>";
+		};
+		7633366029ED50C600B54080 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				768DB52E29F904AD00CEF1F4 /* Swifty */,
+				768DB50429F7BC0900CEF1F4 /* Extension */,
+				768DB4FF29F7BB9E00CEF1F4 /* include */,
+				768DB4FB29F7BA4600CEF1F4 /* EZCommandRunner.h */,
+				768DB4FC29F7BA4600CEF1F4 /* EZCommandRunner.m */,
+				7633366229ED50EF00B54080 /* EZDeallocObjectObserver.h */,
+				7633366329ED50EF00B54080 /* EZDeallocObjectObserver.m */,
+				7633366A29ED5FCE00B54080 /* EZInvoke.h */,
+				7633366B29ED5FCE00B54080 /* EZInvoke.m */,
+				76BC747429FA5BEE001E6D8B /* EZFileManager.h */,
+				76BC747529FA5BEE001E6D8B /* EZFileManager.m */,
+				76F08B7D29F93D0C009B2B92 /* EZLogger.h */,
+				76F08B7E29F93D0C009B2B92 /* EZLogger.m */,
+				76799CF42A035A6C0022E031 /* EZFileLogger.h */,
+				76799CF52A035A6C0022E031 /* EZFileLogger.m */,
+				768DB4EF29F7B36C00CEF1F4 /* EZObjectInfo.h */,
+				768DB4F029F7B36C00CEF1F4 /* EZObjectInfo.m */,
+				7633366729ED542D00B54080 /* EZTopViewController.h */,
+				7633366629ED542D00B54080 /* EZTopViewController.m */,
+				76F08B7629F9364A009B2B92 /* EZHTTPRequest.h */,
+				76F08B7729F9364A009B2B92 /* EZHTTPRequest.m */,
+				768DB53629F90D1800CEF1F4 /* EZStack.h */,
+				768DB53729F90D1800CEF1F4 /* EZStack.m */,
+				768DB53A29F90E6300CEF1F4 /* EZQueue.h */,
+				768DB53B29F90E6300CEF1F4 /* EZQueue.m */,
+				768DB50929F7BE4300CEF1F4 /* EZUtil.h */,
+				768DB50A29F7BE4300CEF1F4 /* EZUtil.m */,
+				76F08B7B29F937E2009B2B92 /* EZMacros.h */,
+				768DB53229F9095E00CEF1F4 /* EZCommon.h */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		76799CFB2A04A40E0022E031 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				76799CFC2A04A45E0022E031 /* EZAppInfo.h */,
+				76799CFD2A04A45E0022E031 /* EZAppInfo.m */,
+				76799D002A04A5110022E031 /* EZAppManager.h */,
+				76799D012A04A5110022E031 /* EZAppManager.m */,
+				7611E0602A0A4ADD00CADCFF /* EZAppLauncher.h */,
+				7611E0612A0A4ADD00CADCFF /* EZAppLauncher.m */,
+				7611E0682A0A500B00CADCFF /* EZAppEnvManager.h */,
+				7611E0692A0A500B00CADCFF /* EZAppEnvManager.m */,
+				7611E05E2A0A47A700CADCFF /* EZApp.h */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		768DB4FF29F7BB9E00CEF1F4 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				768DB50029F7BBAD00CEF1F4 /* libproc.h */,
+				768DB50129F7BBAD00CEF1F4 /* NSTask.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		768DB50429F7BC0900CEF1F4 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				768DB4F329F7B84C00CEF1F4 /* NSObject+Nonnull.h */,
+				768DB4F429F7B84C00CEF1F4 /* NSObject+Nonnull.m */,
+				7611E0642A0A4EF500CADCFF /* NSObject+FMDB.h */,
+				7611E0652A0A4EF600CADCFF /* NSObject+FMDB.m */,
+				768DB50529F7BC1800CEF1F4 /* NSTask+EZTermination.h */,
+				768DB50629F7BC1800CEF1F4 /* NSTask+EZTermination.m */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		768DB52929F8CB2E00CEF1F4 /* functional */ = {
+			isa = PBXGroup;
+			children = (
+				768DB51D29F7E33300CEF1F4 /* NSArray+EZFunctional.h */,
+				768DB52A29F8CB4B00CEF1F4 /* NSDictionary+EZFunctional.h */,
+				768DB52B29F8CB4B00CEF1F4 /* NSDictionary+EZFunctional.m */,
+				768DB51E29F7E33300CEF1F4 /* NSObject+EZFunctional.m */,
+				768DB52529F8CAFF00CEF1F4 /* NSOrderedSet+EZFunctional.h */,
+				768DB52129F8CACA00CEF1F4 /* NSSet+EZFunctional.h */,
+			);
+			path = functional;
+			sourceTree = "<group>";
+		};
+		768DB52E29F904AD00CEF1F4 /* Swifty */ = {
+			isa = PBXGroup;
+			children = (
+				768DB53429F9099800CEF1F4 /* EZSwiftyType.h */,
+				768DB52929F8CB2E00CEF1F4 /* functional */,
+			);
+			path = Swifty;
+			sourceTree = "<group>";
+		};
+		768DB54329F9312800CEF1F4 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				768DB59A29F9325000CEF1F4 /* EZVendor.h */,
+				7611E0502A0A471A00CADCFF /* hpple */,
+				76F08B2D29F934FB009B2B92 /* fmdb */,
+				76F08B0429F934FA009B2B92 /* SSZipArchive */,
+				76F08B3929F934FB009B2B92 /* YYModel */,
+				768DB54429F9313000CEF1F4 /* Extension */,
+				768DB54529F9313F00CEF1F4 /* Promise */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		768DB54429F9313000CEF1F4 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				768DB50D29F7C33D00CEF1F4 /* NSData+AES.h */,
+				768DB50E29F7C33D00CEF1F4 /* NSData+AES.m */,
+				768DB51029F7C33D00CEF1F4 /* NSData+GZIP.h */,
+				768DB50F29F7C33D00CEF1F4 /* NSData+GZIP.m */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		768DB54529F9313F00CEF1F4 /* Promise */ = {
+			isa = PBXGroup;
+			children = (
+				768DB54C29F9316A00CEF1F4 /* FBLPromise.m */,
+				768DB55029F9316A00CEF1F4 /* FBLPromise+All.m */,
+				768DB55629F9316B00CEF1F4 /* FBLPromise+Always.m */,
+				768DB55129F9316A00CEF1F4 /* FBLPromise+Any.m */,
+				768DB54F29F9316A00CEF1F4 /* FBLPromise+Async.m */,
+				768DB55329F9316A00CEF1F4 /* FBLPromise+Await.m */,
+				768DB55229F9316A00CEF1F4 /* FBLPromise+Catch.m */,
+				768DB57029F9316B00CEF1F4 /* FBLPromise+Delay.m */,
+				768DB54A29F9316A00CEF1F4 /* FBLPromise+Do.m */,
+				768DB54E29F9316A00CEF1F4 /* FBLPromise+Race.m */,
+				768DB54D29F9316A00CEF1F4 /* FBLPromise+Recover.m */,
+				768DB56F29F9316B00CEF1F4 /* FBLPromise+Reduce.m */,
+				768DB55429F9316A00CEF1F4 /* FBLPromise+Retry.m */,
+				768DB55529F9316B00CEF1F4 /* FBLPromise+Testing.m */,
+				768DB54929F9316A00CEF1F4 /* FBLPromise+Then.m */,
+				768DB54B29F9316A00CEF1F4 /* FBLPromise+Timeout.m */,
+				768DB54629F9316A00CEF1F4 /* FBLPromise+Validate.m */,
+				768DB54829F9316A00CEF1F4 /* FBLPromise+Wrap.m */,
+				768DB54729F9316A00CEF1F4 /* FBLPromiseError.m */,
+				768DB55729F9316B00CEF1F4 /* include */,
+			);
+			path = Promise;
+			sourceTree = "<group>";
+		};
+		768DB55729F9316B00CEF1F4 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				768DB55829F9316B00CEF1F4 /* FBLPromise+Testing.h */,
+				768DB55929F9316B00CEF1F4 /* FBLPromise+Reduce.h */,
+				768DB55A29F9316B00CEF1F4 /* FBLPromise+Catch.h */,
+				768DB55B29F9316B00CEF1F4 /* FBLPromise+Recover.h */,
+				768DB55C29F9316B00CEF1F4 /* FBLPromise+Validate.h */,
+				768DB55D29F9316B00CEF1F4 /* FBLPromise+All.h */,
+				768DB55E29F9316B00CEF1F4 /* FBLPromise+Race.h */,
+				768DB55F29F9316B00CEF1F4 /* FBLPromise+Wrap.h */,
+				768DB56029F9316B00CEF1F4 /* FBLPromise.h */,
+				768DB56129F9316B00CEF1F4 /* FBLPromises.h */,
+				768DB56229F9316B00CEF1F4 /* FBLPromisePrivate.h */,
+				768DB56329F9316B00CEF1F4 /* FBLPromise+Retry.h */,
+				768DB56429F9316B00CEF1F4 /* FBLPromise+Await.h */,
+				768DB56529F9316B00CEF1F4 /* FBLPromise+Delay.h */,
+				768DB56629F9316B00CEF1F4 /* FBLPromise+Do.h */,
+				768DB56729F9316B00CEF1F4 /* FBLPromise+Timeout.h */,
+				768DB56829F9316B00CEF1F4 /* FBLPromiseError.h */,
+				768DB56929F9316B00CEF1F4 /* FBLPromise+Then.h */,
+				768DB56B29F9316B00CEF1F4 /* FBLPromise+Async.h */,
+				768DB56C29F9316B00CEF1F4 /* FBLPromise+Always.h */,
+				768DB56E29F9316B00CEF1F4 /* FBLPromise+Any.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		76F08B0429F934FA009B2B92 /* SSZipArchive */ = {
+			isa = PBXGroup;
+			children = (
+				76F08B0629F934FA009B2B92 /* minizip */,
+				76F08B2A29F934FA009B2B92 /* SSZipArchive.h */,
+				76F08B2C29F934FA009B2B92 /* SSZipArchive.m */,
+				76F08B2B29F934FA009B2B92 /* SSZipCommon.h */,
+				76F08B0529F934FA009B2B92 /* ZipArchive.h */,
+			);
+			path = SSZipArchive;
+			sourceTree = "<group>";
+		};
+		76F08B0629F934FA009B2B92 /* minizip */ = {
+			isa = PBXGroup;
+			children = (
+				76F08B0729F934FA009B2B92 /* crypt.c */,
+				76F08B0829F934FA009B2B92 /* unzip.c */,
+				76F08B0929F934FA009B2B92 /* zip.c */,
+				76F08B0A29F934FA009B2B92 /* minishared.h */,
+				76F08B0B29F934FA009B2B92 /* ioapi.c */,
+				76F08B0C29F934FA009B2B92 /* ioapi_mem.h */,
+				76F08B0D29F934FA009B2B92 /* ioapi_buf.c */,
+				76F08B0E29F934FA009B2B92 /* crypt.h */,
+				76F08B0F29F934FA009B2B92 /* zip.h */,
+				76F08B1029F934FA009B2B92 /* unzip.h */,
+				76F08B1129F934FA009B2B92 /* ioapi_mem.c */,
+				76F08B1229F934FA009B2B92 /* minishared.c */,
+				76F08B1329F934FA009B2B92 /* ioapi.h */,
+				76F08B1429F934FA009B2B92 /* ioapi_buf.h */,
+				76F08B1529F934FA009B2B92 /* aes */,
+			);
+			path = minizip;
+			sourceTree = "<group>";
+		};
+		76F08B1529F934FA009B2B92 /* aes */ = {
+			isa = PBXGroup;
+			children = (
+				76F08B1629F934FA009B2B92 /* prng.h */,
+				76F08B1729F934FA009B2B92 /* aes_ni.h */,
+				76F08B1829F934FA009B2B92 /* aeskey.c */,
+				76F08B1929F934FA009B2B92 /* hmac.c */,
+				76F08B1A29F934FA009B2B92 /* aestab.h */,
+				76F08B1B29F934FA009B2B92 /* pwd2key.h */,
+				76F08B1C29F934FA009B2B92 /* aescrypt.c */,
+				76F08B1D29F934FA009B2B92 /* fileenc.c */,
+				76F08B1E29F934FA009B2B92 /* aesopt.h */,
+				76F08B1F29F934FA009B2B92 /* sha1.c */,
+				76F08B2029F934FA009B2B92 /* brg_types.h */,
+				76F08B2129F934FA009B2B92 /* hmac.h */,
+				76F08B2229F934FA009B2B92 /* aes_ni.c */,
+				76F08B2329F934FA009B2B92 /* brg_endian.h */,
+				76F08B2429F934FA009B2B92 /* prng.c */,
+				76F08B2529F934FA009B2B92 /* aes.h */,
+				76F08B2629F934FA009B2B92 /* pwd2key.c */,
+				76F08B2729F934FA009B2B92 /* aestab.c */,
+				76F08B2829F934FA009B2B92 /* sha1.h */,
+				76F08B2929F934FA009B2B92 /* fileenc.h */,
+			);
+			path = aes;
+			sourceTree = "<group>";
+		};
+		76F08B2D29F934FB009B2B92 /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				76F08B2E29F934FB009B2B92 /* FMDatabase.h */,
+				76F08B3329F934FB009B2B92 /* FMDatabase.m */,
+				76F08B3629F934FB009B2B92 /* FMDatabaseAdditions.h */,
+				76F08B3229F934FB009B2B92 /* FMDatabaseAdditions.m */,
+				76F08B3129F934FB009B2B92 /* FMDatabasePool.h */,
+				76F08B3729F934FB009B2B92 /* FMDatabasePool.m */,
+				76F08B3429F934FB009B2B92 /* FMDatabaseQueue.h */,
+				76F08B2F29F934FB009B2B92 /* FMDatabaseQueue.m */,
+				76F08B3529F934FB009B2B92 /* FMDB.h */,
+				76F08B3029F934FB009B2B92 /* FMResultSet.h */,
+				76F08B3829F934FB009B2B92 /* FMResultSet.m */,
+			);
+			path = fmdb;
+			sourceTree = "<group>";
+		};
+		76F08B3929F934FB009B2B92 /* YYModel */ = {
+			isa = PBXGroup;
+			children = (
+				76F08B3E29F934FB009B2B92 /* NSObject+YYModel.h */,
+				76F08B3C29F934FB009B2B92 /* NSObject+YYModel.m */,
+				76F08B3A29F934FB009B2B92 /* YYClassInfo.h */,
+				76F08B3D29F934FB009B2B92 /* YYClassInfo.m */,
+				76F08B3B29F934FB009B2B92 /* YYModel.h */,
+			);
+			path = YYModel;
 			sourceTree = "<group>";
 		};
 		7795D0C4CAA18C827DE5F61C81964D53 /* Development Pods */ = {
@@ -187,9 +786,9 @@
 		C5B160AB568C57FCFA8D8ED6E2FCCCAA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BA836F2A3A263F151F67E63B9171FBAE /* EZToolKit */,
-				7946A636E21A3E34300E6630568CC4FD /* Pods-EZToolKit_Example */,
-				2793032F5EFAFE2861D8654E254E255D /* Pods-EZToolKit_Tests */,
+				BA836F2A3A263F151F67E63B9171FBAE /* EZToolKit.framework */,
+				7946A636E21A3E34300E6630568CC4FD /* Pods_EZToolKit_Example.framework */,
+				2793032F5EFAFE2861D8654E254E255D /* Pods_EZToolKit_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -238,7 +837,93 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				768DB51129F7C33D00CEF1F4 /* NSData+AES.h in Headers */,
+				76F08B4829F934FB009B2B92 /* zip.h in Headers */,
+				7633366929ED542D00B54080 /* EZTopViewController.h in Headers */,
 				AA40AA25502747A7866AD34AD6DA4F0A /* EZToolKit-umbrella.h in Headers */,
+				7633366C29ED5FCE00B54080 /* EZInvoke.h in Headers */,
+				7633366429ED50EF00B54080 /* EZDeallocObjectObserver.h in Headers */,
+				768DB4F129F7B36C00CEF1F4 /* EZObjectInfo.h in Headers */,
+				768DB4F529F7B84C00CEF1F4 /* NSObject+Nonnull.h in Headers */,
+				768DB50B29F7BE4300CEF1F4 /* EZUtil.h in Headers */,
+				768DB52C29F8CB4B00CEF1F4 /* NSDictionary+EZFunctional.h in Headers */,
+				768DB52729F8CAFF00CEF1F4 /* NSOrderedSet+EZFunctional.h in Headers */,
+				76F08B4929F934FB009B2B92 /* unzip.h in Headers */,
+				768DB52329F8CACA00CEF1F4 /* NSSet+EZFunctional.h in Headers */,
+				768DB59B29F9325000CEF1F4 /* EZVendor.h in Headers */,
+				768DB51F29F7E33300CEF1F4 /* NSArray+EZFunctional.h in Headers */,
+				768DB58429F9316B00CEF1F4 /* FBLPromise+Catch.h in Headers */,
+				76F08B5929F934FB009B2B92 /* hmac.h in Headers */,
+				7611E0592A0A471A00CADCFF /* XPathQuery.h in Headers */,
+				76F08B4329F934FB009B2B92 /* minishared.h in Headers */,
+				76F08B4729F934FB009B2B92 /* crypt.h in Headers */,
+				768DB58D29F9316B00CEF1F4 /* FBLPromise+Retry.h in Headers */,
+				76F08B4529F934FB009B2B92 /* ioapi_mem.h in Headers */,
+				768DB59129F9316B00CEF1F4 /* FBLPromise+Timeout.h in Headers */,
+				768DB58B29F9316B00CEF1F4 /* FBLPromises.h in Headers */,
+				768DB59029F9316B00CEF1F4 /* FBLPromise+Do.h in Headers */,
+				76F08B5D29F934FB009B2B92 /* aes.h in Headers */,
+				768DB58929F9316B00CEF1F4 /* FBLPromise+Wrap.h in Headers */,
+				768DB58E29F9316B00CEF1F4 /* FBLPromise+Await.h in Headers */,
+				768DB59629F9316B00CEF1F4 /* FBLPromise+Any.h in Headers */,
+				768DB53829F90D1800CEF1F4 /* EZStack.h in Headers */,
+				768DB59329F9316B00CEF1F4 /* FBLPromise+Then.h in Headers */,
+				768DB58829F9316B00CEF1F4 /* FBLPromise+Race.h in Headers */,
+				76F08B5329F934FB009B2B92 /* pwd2key.h in Headers */,
+				768DB58529F9316B00CEF1F4 /* FBLPromise+Recover.h in Headers */,
+				768DB58729F9316B00CEF1F4 /* FBLPromise+All.h in Headers */,
+				76F08B5629F934FB009B2B92 /* aesopt.h in Headers */,
+				76F08B6C29F934FB009B2B92 /* FMDB.h in Headers */,
+				76F08B5229F934FB009B2B92 /* aestab.h in Headers */,
+				76F08B7129F934FB009B2B92 /* YYModel.h in Headers */,
+				76F08B6B29F934FB009B2B92 /* FMDatabaseQueue.h in Headers */,
+				76F08B6729F934FB009B2B92 /* FMResultSet.h in Headers */,
+				76F08B6829F934FB009B2B92 /* FMDatabasePool.h in Headers */,
+				76F08B6329F934FB009B2B92 /* SSZipCommon.h in Headers */,
+				76F08B7429F934FB009B2B92 /* NSObject+YYModel.h in Headers */,
+				76F08B6529F934FB009B2B92 /* FMDatabase.h in Headers */,
+				76F08B6D29F934FB009B2B92 /* FMDatabaseAdditions.h in Headers */,
+				76F08B3F29F934FB009B2B92 /* ZipArchive.h in Headers */,
+				76F08B6229F934FB009B2B92 /* SSZipArchive.h in Headers */,
+				76F08B4D29F934FB009B2B92 /* ioapi_buf.h in Headers */,
+				768DB58329F9316B00CEF1F4 /* FBLPromise+Reduce.h in Headers */,
+				76BC747629FA5BEE001E6D8B /* EZFileManager.h in Headers */,
+				76799CF62A035A6C0022E031 /* EZFileLogger.h in Headers */,
+				76F08B7829F9364A009B2B92 /* EZHTTPRequest.h in Headers */,
+				7611E0572A0A471A00CADCFF /* TFHppleElement.h in Headers */,
+				76799D022A04A5110022E031 /* EZAppManager.h in Headers */,
+				7611E05A2A0A471A00CADCFF /* TFHpple.h in Headers */,
+				76799CFE2A04A45E0022E031 /* EZAppInfo.h in Headers */,
+				7611E05F2A0A47A700CADCFF /* EZApp.h in Headers */,
+				7611E0622A0A4ADD00CADCFF /* EZAppLauncher.h in Headers */,
+				7611E06A2A0A500B00CADCFF /* EZAppEnvManager.h in Headers */,
+				76F08B7F29F93D0C009B2B92 /* EZLogger.h in Headers */,
+				76F08B7C29F937E2009B2B92 /* EZMacros.h in Headers */,
+				7611E0662A0A4EF600CADCFF /* NSObject+FMDB.h in Headers */,
+				76F08B7029F934FB009B2B92 /* YYClassInfo.h in Headers */,
+				768DB58F29F9316B00CEF1F4 /* FBLPromise+Delay.h in Headers */,
+				768DB58A29F9316B00CEF1F4 /* FBLPromise.h in Headers */,
+				768DB59429F9316B00CEF1F4 /* FBLPromise+Async.h in Headers */,
+				768DB53C29F90E6300CEF1F4 /* EZQueue.h in Headers */,
+				768DB59229F9316B00CEF1F4 /* FBLPromiseError.h in Headers */,
+				768DB58629F9316B00CEF1F4 /* FBLPromise+Validate.h in Headers */,
+				76F08B4E29F934FB009B2B92 /* prng.h in Headers */,
+				76F08B6029F934FB009B2B92 /* sha1.h in Headers */,
+				768DB59529F9316B00CEF1F4 /* FBLPromise+Always.h in Headers */,
+				768DB51429F7C33D00CEF1F4 /* NSData+GZIP.h in Headers */,
+				76F08B5B29F934FB009B2B92 /* brg_endian.h in Headers */,
+				76F08B5829F934FB009B2B92 /* brg_types.h in Headers */,
+				768DB53329F9095E00CEF1F4 /* EZCommon.h in Headers */,
+				768DB53529F9099800CEF1F4 /* EZSwiftyType.h in Headers */,
+				768DB4FD29F7BA4600CEF1F4 /* EZCommandRunner.h in Headers */,
+				76F08B4F29F934FB009B2B92 /* aes_ni.h in Headers */,
+				768DB50329F7BBAD00CEF1F4 /* NSTask.h in Headers */,
+				76F08B6129F934FB009B2B92 /* fileenc.h in Headers */,
+				768DB50729F7BC1800CEF1F4 /* NSTask+EZTermination.h in Headers */,
+				768DB58229F9316B00CEF1F4 /* FBLPromise+Testing.h in Headers */,
+				76F08B4C29F934FB009B2B92 /* ioapi.h in Headers */,
+				768DB58C29F9316B00CEF1F4 /* FBLPromisePrivate.h in Headers */,
+				768DB50229F7BBAD00CEF1F4 /* libproc.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +954,7 @@
 			);
 			name = "Pods-EZToolKit_Example";
 			productName = Pods_EZToolKit_Example;
-			productReference = 7946A636E21A3E34300E6630568CC4FD /* Pods-EZToolKit_Example */;
+			productReference = 7946A636E21A3E34300E6630568CC4FD /* Pods_EZToolKit_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		8BDEDE8B735AFA30FAC8E32087081B1F /* EZToolKit */ = {
@@ -287,7 +972,7 @@
 			);
 			name = EZToolKit;
 			productName = EZToolKit;
-			productReference = BA836F2A3A263F151F67E63B9171FBAE /* EZToolKit */;
+			productReference = BA836F2A3A263F151F67E63B9171FBAE /* EZToolKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		A9375A6429E79CCC221CDF69ECA7F1EB /* Pods-EZToolKit_Tests */ = {
@@ -306,7 +991,7 @@
 			);
 			name = "Pods-EZToolKit_Tests";
 			productName = Pods_EZToolKit_Tests;
-			productReference = 2793032F5EFAFE2861D8654E254E255D /* Pods-EZToolKit_Tests */;
+			productReference = 2793032F5EFAFE2861D8654E254E255D /* Pods_EZToolKit_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -316,7 +1001,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1240;
+				LastUpgradeCheck = 1420;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -383,8 +1068,76 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7611E0632A0A4ADD00CADCFF /* EZAppLauncher.m in Sources */,
+				768DB50C29F7BE4300CEF1F4 /* EZUtil.m in Sources */,
+				76F08B4B29F934FB009B2B92 /* minishared.c in Sources */,
+				768DB57329F9316B00CEF1F4 /* FBLPromise+Wrap.m in Sources */,
+				768DB4F629F7B84C00CEF1F4 /* NSObject+Nonnull.m in Sources */,
+				768DB57929F9316B00CEF1F4 /* FBLPromise+Race.m in Sources */,
+				7633366529ED50EF00B54080 /* EZDeallocObjectObserver.m in Sources */,
+				76F08B5029F934FB009B2B92 /* aeskey.c in Sources */,
+				768DB57629F9316B00CEF1F4 /* FBLPromise+Timeout.m in Sources */,
+				768DB59729F9316B00CEF1F4 /* FBLPromise+Reduce.m in Sources */,
+				768DB53929F90D1800CEF1F4 /* EZStack.m in Sources */,
+				768DB57429F9316B00CEF1F4 /* FBLPromise+Then.m in Sources */,
+				7633366829ED542D00B54080 /* EZTopViewController.m in Sources */,
+				76F08B5529F934FB009B2B92 /* fileenc.c in Sources */,
+				76799CF72A035A6C0022E031 /* EZFileLogger.m in Sources */,
+				76F08B4629F934FB009B2B92 /* ioapi_buf.c in Sources */,
+				768DB51329F7C33D00CEF1F4 /* NSData+GZIP.m in Sources */,
+				768DB57129F9316B00CEF1F4 /* FBLPromise+Validate.m in Sources */,
+				768DB58029F9316B00CEF1F4 /* FBLPromise+Testing.m in Sources */,
+				76F08B5129F934FB009B2B92 /* hmac.c in Sources */,
+				76BC747729FA5BEE001E6D8B /* EZFileManager.m in Sources */,
+				768DB57E29F9316B00CEF1F4 /* FBLPromise+Await.m in Sources */,
+				768DB58129F9316B00CEF1F4 /* FBLPromise+Always.m in Sources */,
+				76F08B5729F934FB009B2B92 /* sha1.c in Sources */,
+				76F08B8029F93D0C009B2B92 /* EZLogger.m in Sources */,
+				768DB57829F9316B00CEF1F4 /* FBLPromise+Recover.m in Sources */,
+				7611E0582A0A471A00CADCFF /* TFHpple.m in Sources */,
+				76F08B6929F934FB009B2B92 /* FMDatabaseAdditions.m in Sources */,
+				76F08B6F29F934FB009B2B92 /* FMResultSet.m in Sources */,
+				768DB50829F7BC1800CEF1F4 /* NSTask+EZTermination.m in Sources */,
+				768DB57229F9316B00CEF1F4 /* FBLPromiseError.m in Sources */,
+				7611E0672A0A4EF600CADCFF /* NSObject+FMDB.m in Sources */,
+				76F08B5F29F934FB009B2B92 /* aestab.c in Sources */,
+				76F08B4129F934FB009B2B92 /* unzip.c in Sources */,
+				768DB53D29F90E6300CEF1F4 /* EZQueue.m in Sources */,
+				76F08B6429F934FB009B2B92 /* SSZipArchive.m in Sources */,
+				768DB57729F9316B00CEF1F4 /* FBLPromise.m in Sources */,
+				768DB4FE29F7BA4600CEF1F4 /* EZCommandRunner.m in Sources */,
+				768DB4F229F7B36C00CEF1F4 /* EZObjectInfo.m in Sources */,
+				76799D032A04A5110022E031 /* EZAppManager.m in Sources */,
+				7611E06B2A0A500B00CADCFF /* EZAppEnvManager.m in Sources */,
+				768DB57D29F9316B00CEF1F4 /* FBLPromise+Catch.m in Sources */,
+				76F08B7229F934FB009B2B92 /* NSObject+YYModel.m in Sources */,
+				76F08B4A29F934FB009B2B92 /* ioapi_mem.c in Sources */,
+				76F08B7329F934FB009B2B92 /* YYClassInfo.m in Sources */,
+				76F08B4229F934FB009B2B92 /* zip.c in Sources */,
+				76F08B5C29F934FB009B2B92 /* prng.c in Sources */,
+				768DB51229F7C33D00CEF1F4 /* NSData+AES.m in Sources */,
+				76F08B4429F934FB009B2B92 /* ioapi.c in Sources */,
+				76F08B5E29F934FB009B2B92 /* pwd2key.c in Sources */,
+				768DB52029F7E33300CEF1F4 /* NSObject+EZFunctional.m in Sources */,
+				768DB59829F9316B00CEF1F4 /* FBLPromise+Delay.m in Sources */,
+				768DB57C29F9316B00CEF1F4 /* FBLPromise+Any.m in Sources */,
+				768DB57B29F9316B00CEF1F4 /* FBLPromise+All.m in Sources */,
+				768DB57A29F9316B00CEF1F4 /* FBLPromise+Async.m in Sources */,
+				76F08B5A29F934FB009B2B92 /* aes_ni.c in Sources */,
+				76F08B4029F934FB009B2B92 /* crypt.c in Sources */,
+				7611E05B2A0A471A00CADCFF /* TFHppleElement.m in Sources */,
+				76F08B6629F934FB009B2B92 /* FMDatabaseQueue.m in Sources */,
+				7611E05C2A0A471A00CADCFF /* XPathQuery.m in Sources */,
 				850732A198815CEADBB998ED6EC3E0A2 /* EZToolKit-dummy.m in Sources */,
-				D034AFC5C4ACF0F85555F80DD5DBF5FC /* ReplaceMe.m in Sources */,
+				768DB57529F9316B00CEF1F4 /* FBLPromise+Do.m in Sources */,
+				76F08B7929F9364A009B2B92 /* EZHTTPRequest.m in Sources */,
+				768DB52D29F8CB4B00CEF1F4 /* NSDictionary+EZFunctional.m in Sources */,
+				768DB57F29F9316B00CEF1F4 /* FBLPromise+Retry.m in Sources */,
+				76F08B5429F934FB009B2B92 /* aescrypt.c in Sources */,
+				76F08B6E29F934FB009B2B92 /* FMDatabasePool.m in Sources */,
+				76799CFF2A04A45E0022E031 /* EZAppInfo.m in Sources */,
+				76F08B6A29F934FB009B2B92 /* FMDatabase.m in Sources */,
+				7633366D29ED5FCE00B54080 /* EZInvoke.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,7 +1175,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-EZToolKit_Example/Pods-EZToolKit_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-EZToolKit_Example/Pods-EZToolKit_Example.modulemap";
@@ -453,9 +1206,10 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/EZToolKit/EZToolKit-prefix.pch";
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "Target Support Files/EZToolKit/EZToolKit-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/EZToolKit/EZToolKit.modulemap";
 				PRODUCT_MODULE_NAME = EZToolKit;
@@ -486,7 +1240,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-EZToolKit_Tests/Pods-EZToolKit_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-EZToolKit_Tests/Pods-EZToolKit_Tests.modulemap";
@@ -539,6 +1293,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -554,13 +1309,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -601,6 +1355,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -619,7 +1374,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -648,7 +1403,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-EZToolKit_Tests/Pods-EZToolKit_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-EZToolKit_Tests/Pods-EZToolKit_Tests.modulemap";
@@ -679,9 +1434,10 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/EZToolKit/EZToolKit-prefix.pch";
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "Target Support Files/EZToolKit/EZToolKit-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/EZToolKit/EZToolKit.modulemap";
 				PRODUCT_MODULE_NAME = EZToolKit;
@@ -713,7 +1469,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-EZToolKit_Example/Pods-EZToolKit_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-EZToolKit_Example/Pods-EZToolKit_Example.modulemap";

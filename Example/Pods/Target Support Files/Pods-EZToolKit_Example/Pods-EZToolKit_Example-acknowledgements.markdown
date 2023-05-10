@@ -3,7 +3,7 @@ This application makes use of the following third party libraries:
 
 ## EZToolKit
 
-Copyright (c) 2023 zhujun <elvis.zhu@adtiming.com>
+Copyright (c) 2023 zhujun <elviszhu.0122@gmail.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
