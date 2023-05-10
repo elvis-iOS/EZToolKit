@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'EZToolKit'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A short description of EZToolKit.'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,20 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'EZToolKit/Classes/**/*'
+#  s.source_files = 'EZToolKit/Classes/**/*'
+
+  s.subspec 'Common' do |c|
+      c.source_files = 'EZToolKit/Classes/Common/**/*'
+  end
+  
+  s.subspec 'Vendor' do |v|
+      v.source_files = 'EZToolKit/Classes/Vendor/**/*'
+  end
+  
+  s.subspec 'App' do |a|
+      a.source_files = 'EZToolKit/Classes/App/**/*'
+      a.dependency 'EZToolKit/Common'
+  end
   
   # s.resource_bundles = {
   #   'EZToolKit' => ['EZToolKit/Assets/*.png']
