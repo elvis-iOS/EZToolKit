@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/zhujun/EZToolKit'
+  s.homepage         = 'https://github.com/elvis-iOS/EZToolKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'zhujun' => 'elviszhu.0122@gmail.com' }
@@ -32,12 +32,13 @@ TODO: Add long description of the pod here.
 
 #  s.source_files = 'EZToolKit/Classes/**/*'
 
-  s.subspec 'Common' do |c|
-      c.source_files = 'EZToolKit/Classes/Common/**/*'
-  end
-  
   s.subspec 'Vendor' do |v|
       v.source_files = 'EZToolKit/Classes/Vendor/**/*'
+  end
+
+  s.subspec 'Common' do |c|
+      c.source_files = 'EZToolKit/Classes/Common/**/*'
+      c.dependency 'EZToolKit/Vendor'
   end
   
   s.subspec 'App' do |a|
